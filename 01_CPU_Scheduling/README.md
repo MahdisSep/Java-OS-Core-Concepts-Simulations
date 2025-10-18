@@ -47,3 +47,4 @@ The code processes user-defined inputs for the number of processes, arrival time
 ## 📄 Code Structure Highlights
 
 ## | Class / Variable | Purpose | | :--- | :--- | | `ProcessFIFORoundRobin` | Represents a process for FIFO and RR, storing `name`, `arrivalTime`, and `burstTime`. | | `ProcessEDF` | Represents a process for EDF, including `periodTime` and a list of `deadline` values. | | `main(String[] args)` | Handles user input and directs execution to the appropriate algorithm logic block. | | `timeQuantum` | The time slice used in the Round Robin simulation. | | **Logic Blocks** | Distinct `if` blocks for `FIFO`, `Round Robin`, and `EDF` contain the unique scheduling rules. |
+
